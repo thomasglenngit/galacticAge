@@ -18,10 +18,10 @@ describe('Human class', () => {
     expect(testMercuryAge.age).toEqual(178.41309537342278);
   });
 
-  test('should calculate human age in years on Mercury', () => {
-    let testMercuryAge = new Human();
-    testMercuryAge.mercuryAge();
-    expect(testMercuryAge.age).toEqual();
+  test('should calculate human age in years on Venus', () => {
+    let testVenusAge = new Human(43);
+    testVenusAge.venusAge();
+    expect(testVenusAge.age).toBeCloseTo(69.8486871);
   });
 
   
