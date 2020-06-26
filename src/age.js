@@ -12,7 +12,7 @@ export class Human {
 
   
   mercuryAge() {
-    this.age *= 365/87.97;
+    return Math.round(this.age *= 365/87.97);
   }
   
 }
