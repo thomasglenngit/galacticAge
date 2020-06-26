@@ -24,5 +24,11 @@ describe('Human class', () => {
     expect(testVenusAge.age).toBeCloseTo(69.8486871);
   });
 
+  test('should calculate human age in year on Mars', () => {
+    let testMarsAge = new Human();
+    testMarsAge.marsAge();
+    expect(testMarsAge.age).toBeCloseTo();
+  })
+
   
 });
