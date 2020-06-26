@@ -36,4 +36,10 @@ describe('Human class', () => {
     expect(testJupiterAge.age).toBeCloseTo(3.62563238);
   });
   
+  test('this function should calculate life expectancy on each planet', () => {
+    let testSolarLife = new Human ()
+    testSolarLife.solarLife();
+    expect(testSolarLife.lifeX).toBe();
+  })
+
 });

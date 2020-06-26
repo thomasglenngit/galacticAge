@@ -10,13 +10,14 @@
 __As a code review test for the Epicodus coding school we are to create a program which determines the age of a person living on a different planet. A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. (ex. A solar year on Mercury lasts 88 days). 
 
 | Spec   |     Input     |  Output | Test |
-|----------|:-------------:|------:| ------:|
+|:----------|:-------------|:------| :------|
 | The program will take in a user's age and life expectancy and planet |  "43" "81" "earth" | None | Passed   |
 | The program will calculate user's Earth age in Earth days divided by Orbital Period (Days) |  "43 x 365/365" |  "43" |    Passed    |
-| The program will calculate user's age in Mercury years | "43" |  "160" |  Passed    |
-| The program will calculate user's age in Venus years | "43" |  "160" |  Passed    |
+| The program will calculate user's age in Mercury years | "43" |  "178" |  Passed    |
+| The program will calculate user's age in Venus years | "43" |  "70" |  Passed    |
 | The program will calculate user's age in Mars years | "43" | "22" |   Passed   |
-| The program will calculate user's age in Jupiter years | "43" | "3" |    |
+| The program will calculate user's age in Jupiter years | "43" | "3" |  Passed  |
+| The program will calculate user's life expectancy on each planet | "Earth, 43; Earth, 86" |    |
 
 ## Setup/Installation Requirements
 
