@@ -3,17 +3,16 @@ export class Human {
   this.age = age;
   this.lifeExpectancy = lifeExpectancy;
   this. planet = planet;
-
+  
   }
 
   earthAge() {
-      this.age *= 365/365;
-      this.lifeExpectancy -= this.age;    
+      this.age *= 365/365;    
   }
+
   
   mercuryAge() {
     this.age *= 365/87.97;
-    this.lifeExpectancy -= this.age;
   }
   
 }
