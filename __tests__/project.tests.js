@@ -25,9 +25,9 @@ describe('Human class', () => {
   });
 
   test('should calculate human age in year on Mars', () => {
-    let testMarsAge = new Human();
+    let testMarsAge = new Human(43);
     testMarsAge.marsAge();
-    expect(testMarsAge.age).toBeCloseTo();
+    expect(testMarsAge.age).toBeCloseTo(22.8723404);
   })
 
   
