@@ -3,7 +3,7 @@ import { Human } from './../src/age'
 describe('Human class', () => {
   test('should take in a users age and life expectancy', () => {
     let testHuman = new Human(40, 80, "earth");
-    expect(testHuman).toMatchObject({age: 40, lifeExpectancy: 80, planet: "earth"});
+    expect(testHuman).toMatchObject({age: 40, lifeX: 80, planet: "earth"});
   });
 
   test('should calculate human age in years', () => {
@@ -37,9 +37,9 @@ describe('Human class', () => {
   });
   
   test('this function should calculate life expectancy on each planet', () => {
-    let testSolarLife = new Human ()
+    let testSolarLife = new Human(43, 10, "earth");
     testSolarLife.solarLife();
-    expect(testSolarLife.lifeX).toBe();
+    expect(testSolarLife.lifeX).toBe(43, 20, "earth");
   })
 
 });

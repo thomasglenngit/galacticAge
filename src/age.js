@@ -37,10 +37,9 @@ export class Human {
       this.lifeX = this.age * 1.3;
     } else if (this.planet === "mars") {
       this.lifeX = this.age * 1.2;
-    } else if (this.planet === "jupiter") {
+    } else {
       this.lifeX = this.age * 1.1;
     }
-
 
   }
   
