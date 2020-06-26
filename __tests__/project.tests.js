@@ -11,4 +11,6 @@ describe('Human class', () => {
     testEarthAge.planetAge();
     expect(testEarthAge.age).toEqual(43, 37, "earth");
   });
+
+  
 });
