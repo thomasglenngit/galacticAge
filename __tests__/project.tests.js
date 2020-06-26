@@ -1,4 +1,4 @@
-import { Human } from 
+import { Human } from './../src/age'
 
 describe('Human class', () => {
   test('should take in a users age and life expectancy', () => {
