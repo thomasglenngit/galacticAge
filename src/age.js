@@ -7,7 +7,7 @@ export class Human {
   }
 
   planetAge() {
-      this.age *= 365;
+      this.age *= 365/365;
       this.lifeExpectancy -= this.age;    
   }
   
