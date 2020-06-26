@@ -15,7 +15,7 @@ describe('Human class', () => {
   test('should calculate human age and remaining life expectancy in years on Mercury', () => {
     let testMercuryAge = new Human(43);
     testMercuryAge.mercuryAge();
-    expect(testMercuryAge.age).toEqual(178);
+    expect(testMercuryAge.age).toEqual(178.41309537342278);
   });
   
 });
