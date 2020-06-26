@@ -12,8 +12,8 @@ __As a code review test for the Epicodus coding school we are to create a progra
 | Spec   |     Input     |  Output | Test |
 |----------|:-------------:|------:| ------:|
 | The program will take in a user's age and life expectancy and planet |  "43" "81" "earth" | None | Passed   |
-| The program will calculate user's Earth age in Earth days divided by Orbital Period (Days) |  "43 x 365/365"  |  "43" |       |
-| The program will calculate user's age in Mercury days | "43 x 365/97.97" |  "178" (years old) |       |
+| The program will calculate user's Earth age in Earth days divided by Orbital Period (Days), and life expectancy |  "43 x 365/365", "80 - 43" |  "43", "37" |   Passed    |
+| The program will calculate user's age and life expectancy in Mercury years | "43", "80" |  "160" "137" |       |
 
 ## Setup/Installation Requirements
 
