@@ -6,6 +6,7 @@ export class Human {
   }
 
   earthAge() {
-    this.age * 365 /  365;
+    this.age * 365 / 365;
+    this.lifeExpectancy - this.age;
   }
 }
