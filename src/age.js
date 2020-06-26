@@ -18,6 +18,10 @@ export class Human {
   venusAge() {
     Math.floor(this.age *= 365/224.70);
   }
+
+  marsAge() {
+    Math.floor(this.age *= 365/686.20);
+  }
   
 }
 
