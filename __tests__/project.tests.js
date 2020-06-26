@@ -9,6 +9,6 @@ describe('Human class', () => {
   test('should calculate human age in days, and then divide by days', () => {
     let testEarthAge = new Human(43, 80, "earth");
     testEarthAge.planetAge();
-    expect(testEarthAge.age).toEqual(15695, 37);
+    expect(testEarthAge.age).toEqual(15695, 37, "earth");
   });
 });
