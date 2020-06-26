@@ -11,8 +11,8 @@ __As a code review test for the Epicodus coding school we are to create a progra
 
 | Spec   |     Input     |  Output | Test |
 |----------|:-------------:|------:| ------:|
-| The program will take in a user's age and life expectancy |  "43" "81" | None |    |
-| col 2 is |    centered   |   $12 |       |
+| The program will take in a user's age and life expectancy |  "43" "81" | None | Passed   |
+| The program will calculate user's Earth age in Earth days divided by Earth days |  "43 x 365/365"  |  "43" |       |
 | col 3 is | right-aligned |    $1 |       |
 
 ## Setup/Installation Requirements
