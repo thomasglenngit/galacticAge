@@ -30,17 +30,17 @@ export class Human {
 
   solarLife() {
     if (this.planet === "earth") {
-      this.lifeX = this.age * 2;
+      this.lifeX = this.lifeX + this.age * 2;
     } else if (this.planet === "mercury") {
-      this.lifeX = this.age * 1.5;
+      this.lifeX = this.lifeX + this.age * 1.5;
     } else if (this.planet === "venus") {
-      this.lifeX = this.age * 1.3;
+      this.lifeX = this.lifeX + this.age * 1.3;
     } else if (this.planet === "mars") {
-      this.lifeX = this.age * 1.2;
-    } else {
-      this.lifeX = this.age * 1.1;
+      this.lifeX = this.lifeX + this.age * 1.2;
+    } else if (this.planet === "jupiter") {
+      this.lifeX = this.lifeX + this.age * 1.1;
     }
-
+      return this.lifeX;
   }
   
 }

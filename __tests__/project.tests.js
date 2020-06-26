@@ -39,7 +39,7 @@ describe('Human class', () => {
   test('this function should calculate life expectancy on each planet', () => {
     let testSolarLife = new Human(43, 10, "earth");
     testSolarLife.solarLife();
-    expect(testSolarLife.lifeX).toBe(43, 20, "earth");
+    expect(testSolarLife.lifeX).toBe(96);
   })
 
 });
