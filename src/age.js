@@ -6,9 +6,10 @@ export class Human {
 
   }
 
-  // planetAge() {
-
-  // }
+  planetAge() {
+      this.age *= 365;    
+  }
+  
   
 }
 

@@ -6,9 +6,9 @@ describe('Human class', () => {
     expect(testHuman).toMatchObject({age: 40, lifeExpectancy: 80, planet: "earth"});
   });
 
-  // test('should calculate human age in days, and then divide by days', () => {
-  //   let testEarthAge = new Human(43, 80);
-  //   testEarthAge.earthAge();
-  //   expect(testEarthAge.earthAge(43, 80)).toEqual({age: 15695, lifeExpectancy: 80});
-  // });
+  test('should calculate human age in days, and then divide by days', () => {
+    let testEarthAge = new Human(43, 80, "earth");
+    testEarthAge.planetAge();
+    expect(testEarthAge.age).toEqual(15695);
+  });
 });
