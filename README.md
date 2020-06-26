@@ -15,7 +15,8 @@ __As a code review test for the Epicodus coding school we are to create a progra
 | The program will calculate user's Earth age in Earth days divided by Orbital Period (Days) |  "43 x 365/365" |  "43" |    Passed    |
 | The program will calculate user's age in Mercury years | "43" |  "160" |  Passed    |
 | The program will calculate user's age in Venus years | "43" |  "160" |  Passed    |
-| The program will calculate user's age in Mars years | "43" | "22" |      |
+| The program will calculate user's age in Mars years | "43" | "22" |   Passed   |
+| The program will calculate user's age in Jupiter years | "43" | "3" |    |
 
 ## Setup/Installation Requirements
 

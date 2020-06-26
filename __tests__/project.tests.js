@@ -28,7 +28,9 @@ describe('Human class', () => {
     let testMarsAge = new Human(43);
     testMarsAge.marsAge();
     expect(testMarsAge.age).toBeCloseTo(22.8723404);
-  })
+  });
+
+  
 
   
 });
