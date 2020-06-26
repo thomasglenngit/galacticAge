@@ -31,10 +31,9 @@ describe('Human class', () => {
   });
 
   test('should calculate human age in years on Jupiter', () => {
-    let testJupiterAge = new Human ();
+    let testJupiterAge = new Human(43);
     testJupiterAge.jupiterAge();
-    expect(testJupiterAge.age).toBeCloseTo();
+    expect(testJupiterAge.age).toBeCloseTo(3.62563238);
   });
-
   
 });
