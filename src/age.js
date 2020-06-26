@@ -1,4 +1,3 @@
-
 export class Human {
   constructor(age, lifeExpectancy) {
   this.age = age;
