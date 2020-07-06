@@ -4,43 +4,32 @@ export class Human {
   this.lifeX = lifeX;
   this. planet = planet;
   this.happiness;
-  
   }
 
   earthAge() {
       this.age *= 365/365;    
+      this.lifeX *= 1;
   }
 
   mercuryAge() {
     Math.floor(this.age *= 365/87.97);
+    this.lifeX *= 0.9 * 365/87.97;
   }
 
   venusAge() {
     Math.floor(this.age *= 365/224.70);
+    this.lifeX *= 0.8 * 365/224.70; 
   }
 
   marsAge() {
     Math.floor(this.age *= 365/686.20);
+    this.lifeX *= 0.7 * 365/686.20; 
   }
 
   jupiterAge() {
     Math.floor(this.age *= 365/4328.90);
+    this.lifeX *= 0.6 * 365/4328.90; 
   }
 
-  solarLife() {
-    if (this.planet === "earth") {
-      this.lifeX = this.lifeX + this.age * 2;
-    } else if (this.planet === "mercury") {
-      this.lifeX = this.lifeX + this.age * 1.5;
-    } else if (this.planet === "venus") {
-      this.lifeX = this.lifeX + this.age * 1.3;
-    } else if (this.planet === "mars") {
-      this.lifeX = this.lifeX + this.age * 1.2;
-    } else if (this.planet === "jupiter") {
-      this.lifeX = this.lifeX + this.age * 1.1;
-    }
-      return this.lifeX;
-  }
-  
 }
 
