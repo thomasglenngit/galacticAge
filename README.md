@@ -1,6 +1,5 @@
 <h1 align='center'><img width='900' height='450' src='https://www.syfy.com/sites/syfy/files/styles/1200x680/public/solarsystem_diagram.jpg'><br>
-
-
+  
 **<h1 align = 'center'>Galactic Age**
 
 
@@ -12,7 +11,8 @@
 
 <h3 align='center'>As the fifth code review test for the Epicodus coding school I am to create a program which determines the age of a person living on a different planet. A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. (ex. A solar year on Mercury lasts 88 days). In addition, I am to determine the life expectancy of someone living on another planet in that planet's years.</h3>
 
-## SPEFICATIONS:
+### SPECIFICATIONS:
+
 | Spec   |     Input     |  Output | Test |
 |:----------|:-------------|:------| :------|
 | The program will take in a user's age and life expectancy and planet |  "43" "81" "earth" | None | Passed   |
