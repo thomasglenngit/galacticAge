@@ -50,7 +50,7 @@ _[Jquery](https://jquery.com/)_
 # **KNOWN BUGS**
 
 
-_**No known bugs as of:** _
+**No known bugs as of: 7/26/2020** 
 
 <br>
 
