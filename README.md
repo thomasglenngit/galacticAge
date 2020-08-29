@@ -27,7 +27,7 @@
 
 _[Node.js](https://nodejs.org/en/)_
 
-# **SETUP**
+
 
 # **TECHNOLOGIES USED**
 
@@ -54,7 +54,7 @@ _**No known bugs as of:** _
 
 <br>
 
-# **INSTALL**
+# **SETUP**
 
 ## **INSTALLING WITH NODE**
 
